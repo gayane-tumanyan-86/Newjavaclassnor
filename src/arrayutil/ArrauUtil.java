@@ -80,28 +80,28 @@ public class ArrauUtil {
 //    }
 //}
 
-    public static void main(String[] args) {
-        // 7․ Տպել կենտերի քանակը
-        int[] array = new int[]{4, 5, 8, 15, 23, 1, 11, 25, 88, 10};
-        int arrayi = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == 0) {
-            } else if (array[i] % 2 != 0) {
-                arrayi++;
-            }
-        }
-        System.out.println(arrayi);
-    }
-}
-
 //    public static void main(String[] args) {
-//        //8․ Տպել մասիվի բոլոր թվերի միջին թվաբանականը
+//        // 7․ Տպել կենտերի քանակը
 //        int[] array = new int[]{4, 5, 8, 15, 23, 1, 11, 25, 88, 10};
+//        int arrayi = 0;
 //        for (int i = 0; i < array.length; i++) {
-//            System.out.println(array[0]+array[1]+array[2]+array[3]+array[4]+array[5]+array[6]+array[7]+array[8]+array[9]/10);
-//
-//
+//            if (array[i] == 0) {
+//            } else if (array[i] % 2 != 0) {
+//                arrayi++;
+//            }
 //        }
+//        System.out.println(arrayi);
+//    }
+//}
+
+    public static void main(String[] args) {
+        //8․ Տպել մասիվի բոլոր թվերի միջին թվաբանականը
+        int[] array = new int[]{4, 5, 8, 15, 23, 1, 11, 25, 88, 10};
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[0]+array[1]+array[2]+array[3]+array[4]+array[5]+array[6]+array[7]+array[8]+array[9]/10);}}}
+
+
+
 //    }}
 
 
